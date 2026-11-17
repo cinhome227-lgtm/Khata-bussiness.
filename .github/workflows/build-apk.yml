@@ -19,8 +19,10 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Add Android Platform
-        run: npx cap add android
+      - name: Clean & Add Android Platform
+        run: |
+          npx cap rm android
+          npx cap add android
 
       - name: Build Android App & APK
         run: |
