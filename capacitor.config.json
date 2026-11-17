@@ -1,0 +1,6 @@
+{
+  "appId": "com.khata.app",
+  "appName": "Khata",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
